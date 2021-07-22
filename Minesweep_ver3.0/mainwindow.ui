@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMap">
+    <property name="title">
+     <string>Map</string>
+    </property>
+    <addaction name="actionJunior"/>
+    <addaction name="actionMiddle"/>
+    <addaction name="actionSenior"/>
+    <addaction name="actionCustom"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>Other</string>
+    </property>
+    <addaction name="actionCHEAT"/>
+    <addaction name="actionRanking"/>
+    <addaction name="actionCreators"/>
+   </widget>
+   <addaction name="menuMap"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <action name="actionJunior">
+   <property name="text">
+    <string>Junior</string>
+   </property>
+  </action>
+  <action name="actionMiddle">
+   <property name="text">
+    <string>Middle</string>
+   </property>
+  </action>
+  <action name="actionSenior">
+   <property name="text">
+    <string>Senior</string>
+   </property>
+  </action>
+  <action name="actionCreators">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionCustom">
+   <property name="icon">
+    <iconset theme="Customize">
+     <normaloff>.</normaloff>.</iconset>
+   </property>
+   <property name="text">
+    <string>Customize</string>
+   </property>
+   <property name="toolTip">
+    <string>Customize</string>
+   </property>
+  </action>
+  <action name="actionCHEAT">
+   <property name="text">
+    <string>Cheat</string>
+   </property>
+   <property name="toolTip">
+    <string>Cheat</string>
+   </property>
+  </action>
+  <action name="actionRanking">
+   <property name="text">
+    <string>Rank</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
